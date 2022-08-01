@@ -22,9 +22,9 @@ Import-Module PSFzf
 Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+f' -PSReadlineChordReverseHistory 'Ctrl+r'
 
 # Alias
-# Set-Alias vim nvim
+Set-Alias vim nvim
 Set-Alias ll ls
-# Set-Alias g git
+Set-Alias g git
 Set-Alias grep findstr
 Set-Alias tig 'C:\Program Files\Git\usr\bin\tig.exe'
 Set-Alias less 'C:\Program Files\Git\user\bin\less.exe'
